@@ -1,0 +1,117 @@
+nav,
+h1,
+h2,
+h4,
+h6,
+.card {
+  font-family: "Open Sans", sans-serif !important;
+}
+
+.brand-logo {
+  margin-left: 50px;
+  font-size: 1.8rem !important;
+  line-height: 75px !important;
+  display: contents !important;
+}
+li {
+  margin-right: 100px;
+}
+
+nav {
+  background-color: #232323 !important;
+  height: 80px !important;
+  position: sticky;
+}
+nav li {
+  padding-top: 10px !important;
+}
+nav li a:hover {
+  background: transparent !important;
+  border-bottom: 3px solid #fe4a49;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.brandlogo {
+  height: 70px;
+  width: 70px;
+  display: inline-flex;
+  vertical-align: bottom;
+}
+#submit,
+#cancel,
+#LoginAgain {
+  background-color: #fe4a49;
+}
+h1,
+#demo,
+#submitted_already {
+  color: #fe4a49;
+}
+#demo {
+  font-size: 1rem;
+  padding-top: 15px;
+}
+.greencolor {
+  color: #232323 !important;
+}
+.Rounds a,
+.test-submit,
+[type="radio"]:checked + span:after,
+[type="radio"].with-gap:checked + span:after,
+#ok {
+  background-color: #1fc58e !important;
+}
+#question_statement {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.options {
+  font-family: sans-serif;
+}
+#questionaire p {
+  padding-left: 10vw;
+}
+#questionaire h6 {
+  padding-left: 8vw;
+}
+.roundName {
+  font-size: 2rem !important;
+  margin-left: 10px;
+}
+#submittest {
+  margin: 0 0 0 50% !important;
+  transform: translateX(-50%);
+}
+#submission_success,
+#submitted_already,
+#validate_form {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+}
+#submission_success {
+  color: #1fc58e !important;
+}
+
+input:not([type]):focus:not([readonly]),
+input[type="text"]:not(.browser-default):focus:not([readonly]) + label,
+input[type="password"]:not(.browser-default):focus:not([readonly]) + label,
+input[type="email"]:not(.browser-default):focus:not([readonly]),
+input[type="url"]:not(.browser-default):focus:not([readonly]),
+input[type="time"]:not(.browser-default):focus:not([readonly]),
+input[type="date"]:not(.browser-default):focus:not([readonly]),
+input[type="datetime"]:not(.browser-default):focus:not([readonly]),
+input[type="datetime-local"]:not(.browser-default):focus:not([readonly]),
+input[type="tel"]:not(.browser-default):focus:not([readonly]),
+input[type="number"]:not(.browser-default):focus:not([readonly]),
+input[type="search"]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  color: #232323 !important;
+}
+input[type="text"]:not(.browser-default):focus:not([readonly]),
+input[type="password"]:not(.browser-default):focus:not([readonly]) {
+  border-bottom: 1px solid #232323 !important;
+  box-shadow: 0 1px 0 0 #232323 !important;
+}
